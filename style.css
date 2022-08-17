@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: space-between;
+}
+
+section {
+  border-radius: 15px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin: 20px auto;
+  padding: 2rem;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.2);
+  max-width: 550px;
+}
+.currency-container {
+  justify-content: center;
+}
+
+h1 {
+  color: rgb(228, 216, 49);
+  font-size: 3rem;
+  text-align: center;
+  margin: 20px auto;
+}
+h2 {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  margin: 20px auto;
+}
+
+select:focus,
+input:focus {
+  outline: 0;
+}
+select,
+input {
+  background: rgb(248, 248, 231);
+  padding: 16px;
+  width: 240px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+}
+.swap-button {
+  background: rgb(228, 216, 49);
+  padding: 16px;
+  border: none;
+  border-radius: 8px;
+  margin: 20px auto;
+}
+.button-rate {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: left;
+  gap: 30px;
+}
+.rate {
+  color: rgb(228, 216, 49);
+  font-size: 1em;
+}
+footer {
+  padding: 1rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
